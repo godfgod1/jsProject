@@ -9,6 +9,6 @@ just practice
 
 ## when did you start, and how long 
 it started at 8/23/2021 
-it takes 2 weeks 
+/n it takes 2 weeks 
 
 
