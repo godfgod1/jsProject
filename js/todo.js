@@ -18,7 +18,8 @@ function deleteTodo(e){
 
 function toggleImportance(e){
     const li = e.target.parentElement;
-    li.classList.toggle('importance')
+    const span =li.childNodes[0]
+    span.classList.toggle('importance')
 }
 function toggleCompletion(e){
     const li = e.target.parentElement;
@@ -28,8 +29,8 @@ function toggleCompletion(e){
 function paintTodo(newTodo){
     const li = document.createElement('li')
     li.id = newTodo.id
-    const div = document.createElement('div')
-    div.innerText = newTodo.text
+    const span = document.createElement('span')
+    span.innerText = newTodo.text
     const importance = document.createElement('button')
     importance.innerText = '중요'
     const completion = document.createElement('button')
@@ -39,7 +40,7 @@ function paintTodo(newTodo){
     importance.onclick = toggleImportance
     completion.onclick = toggleCompletion
     button.onclick = deleteTodo
-    li.appendChild(div)
+    li.appendChild(span)
     li.appendChild(importance)
     li.appendChild(completion)
     li.appendChild(button)
