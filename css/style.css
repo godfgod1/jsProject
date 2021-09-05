@@ -8,6 +8,7 @@ body{
     background-size : cover;
     position: relative;
     z-index: 1;
+    color:white;
 }
 
 /* .body::after {

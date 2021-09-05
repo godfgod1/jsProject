@@ -1,9 +1,10 @@
 const body = document.querySelector('.loginBox')
 
-// import {api} from '../api.js'
+import '../config.js'
+
 
 // console.log('ddddd')
 
-// console.log(api)
+console.log(api)
 
-console.log(body)
+// console.log(body)

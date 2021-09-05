@@ -23,11 +23,23 @@ function getDate() {
     "Dec",
   ];
   const monthIndex = date.getMonth();
-  console.log(months[monthIndex]);
-  console.log(`${year} ${months[monthIndex]} ${day} `);
+  
+  
 
-  date.innerText = `${year} ${months[monthIndex]} ${day} `;
+  return `${year} ${months[monthIndex]} ${day} `;
 }
 
+function getTime() {
+  const date = new Date();
+  const noon = `${date.getHours() > 12 ? "PM" : "AM"}`
+  const hours = `${date.getHours() > 12 ? date.getHours() -12 : date.getHours()}`.padStart(2,'0')
+  const minutes = String(date.getMinutes()).padStart(2,'0');
+  const seconds = String(date.getSeconds()).padStart(2,'0');
 
-getDate();
+  time.innerText = ` ${noon} ${hours} : ${minutes} : ${seconds} `
+  // return `${year} ${months[monthIndex]} ${day} `;
+}
+
+setInterval(getTime,1000)
+const day = getDate();
+date.innerText =day

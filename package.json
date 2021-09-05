@@ -1,0 +1,24 @@
+{
+  "name": "jsproject",
+  "version": "1.0.0",
+  "description": "practice vanila javascript making a simple app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godfgod1/jsProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/godfgod1/jsProject/issues"
+  },
+  "homepage": "https://github.com/godfgod1/jsProject#readme",
+  "type": "module",
+  "dependencies": {
+    "env": "0.0.2"
+  }
+}
