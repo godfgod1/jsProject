@@ -116,6 +116,11 @@ ul {
   height: 2em;
 }
 
+#weather{
+  font-size: 2em;
+
+}
+
 .hidden {
   display: none;
 }
