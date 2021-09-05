@@ -8,7 +8,7 @@ body{
     background-size : cover;
     position: relative;
     z-index: 1;
-    color:white;
+    /* color:white; */
 }
 
 /* .body::after {
@@ -21,3 +21,11 @@ body{
     Opacity:0.1;
 
   } */
+
+  .importance{
+    -webkit-box-shadow: 0px 1px 23px 6px #FF1010; 
+    box-shadow: 0px 1px 23px 6px #FF1010;
+  }
+  .complete{
+   text-decoration: line-through ;
+  }
