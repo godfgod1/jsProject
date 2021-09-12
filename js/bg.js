@@ -12,3 +12,4 @@ BgButton.onclick = changeBackground
 
 
 
+            // window.setTimeout('window.location.reload()',10000)

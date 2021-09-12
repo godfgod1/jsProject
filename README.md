@@ -1,14 +1,13 @@
 # jsProject
-practice vanila javascript making a simple app
 
 ## used stack
 HTML, CSS, javascript
 
-## what made you this app
-just practice
+## what did you make this for?
+it is simple app to list up what to do every single day
 
-## when did you start, and how long 
-it started at 8/23/2021 
-<br> it takes 2 weeks 
+## when did you start
+started at 8/23/2021  
+ 
 
 
