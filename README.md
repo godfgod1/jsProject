@@ -1,4 +1,4 @@
-# jsProject
+# todo-list
 
 ## used stack
 HTML, CSS, javascript
