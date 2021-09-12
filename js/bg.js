@@ -8,6 +8,10 @@ body.style.backgroundImage = `url(img/${chosenImg})`
 }
 
 changeBackground()
+setTimeout(function(){
+    changeBackground()
+    },1000 * 60 * 5);
+
 BgButton.onclick = changeBackground
 
 

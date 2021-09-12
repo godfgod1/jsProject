@@ -13,10 +13,11 @@
         <div class='text'>이름을 입력해주세요</div>
         <input
           class="inputBox"
-          placeholder="입력 마치고 로그인 클릭"
+          placeholder="입력 마치고 엔터"
           type="text"
         />
-        <button class="btn" type="button">로그인</button>
+        <!-- 미관상 로그인 버튼 없앰 -->
+        <!-- <button class="btn" type="button">로그인</button> -->
       </form>
       <div class="welcome hidden">
         <div class="welcomeText"></div>
@@ -37,16 +38,19 @@
       <div id="weather">
           <span></span>
         <span></span>
-    </div>
+    </div >
+    <div class='bottom'>
     <button class="delete-all">리스트 전체 삭제</button>
       <button type="button" class='logoutbutton hidden'>로그아웃</button>
       <button class="BgButton">이미지 변경</button>
+    </div>
     </div>
 
     <script src="js/login.js"></script>
     <script src="js/time.js"></script>
     <script src='js/bg.js'></script>
     <script src="js/todo.js"></script>
+  
     <!-- <script src='js/api.js'></script> -->
     <!-- <script   src='js/weather.js'></script> -->
   </body>

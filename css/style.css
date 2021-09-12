@@ -70,7 +70,7 @@ button:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 80vh;
+  min-height: 100vh;
   flex-direction: column;
 }
 
@@ -95,17 +95,42 @@ button:focus {
   font-size: 3em;
   text-align: center;
 }
-
-li {
-  margin: 0 auto;
+.date {
+  font-size: 0.7em;
 }
+
+
 ul {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items:right;
   font-size: 1em;
+  height:200px;
+  width: 300px;
+  padding-left:220px;
+}
+ul li {
+  /* margin: 0 auto; */
+  width:250px;
+  display: flex;
+  justify-content: space-between;
+  
 }
 
+
+li span{
+  text-align: left;
+}
+
+li button{
+  background-color:transparent;
+  border: 2px solid #C4C4C4;
+  font-weight: bold;
+  color:#C4C4C4;
+  -webkit-box-shadow: 0px 0px 8px 2px #C4C4C4; 
+  box-shadow: 0px 0px 4px 2px #C4C4C4;
+  width:50px;
+}
 
 .btn,
 .delete-all,
@@ -114,7 +139,21 @@ ul {
   margin: 10px;
   width: 10em;
   height: 2em;
+  background-color:transparent;
+  border: 2px solid #C4C4C4;
+  font-weight: bold;
+  color:white;
+  -webkit-box-shadow: 0px 0px 8px 2px #C4C4C4; 
+  box-shadow: 0px 0px 4px 2px #C4C4C4;
 }
+
+.bottom{
+  margin-top:100px;
+  display: flex;
+  flex-direction: column;
+}
+/* .delete-all{
+} */
 
 #weather{
   font-size: 2em;

@@ -50,9 +50,13 @@ if (getName === null) {
   loginBox.classList.remove(HIDDEN_CLASS);
   welcomeBox.classList.add(HIDDEN_CLASS);
   logoutBtn.classList.add(HIDDEN_CLASS);
-  input.onclick = welcome;
+  // input.onclick = welcome;
+  loginBox.onsubmit =welcome
 } else {
   paintWelcome();
+  setTimeout(function(){
+    paintWelcome();
+    },1000 * 60 * 5);
 }
 
 function logout(e) {
