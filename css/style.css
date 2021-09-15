@@ -108,14 +108,15 @@ ul {
   height:200px;
   width: 300px;
   padding-left:220px;
+  overflow: scroll;
 }
 ul li {
   /* margin: 0 auto; */
   width:250px;
   display: flex;
   justify-content: space-between;
-  
 }
+
 
 
 li span{
